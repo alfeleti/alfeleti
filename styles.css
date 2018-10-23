@@ -1,22 +1,52 @@
 h2 {
   text-align: center; 
-  font-size: 55px; 
-  display: flex; 
+  font-size: 55px;  
 }
 p {
   text-align: center; 
-  font-size: 44px;
-  display: flex; 
+  font-size: 44px; 
   
 }
 #navbar { 
   text-align: right; 
-  
+  font-size: 44px; 
+  position: fixed; 
+  width: 100%; 
+  z-index: 1; 
+}
+#navbar a {
+  text-decoration: none; 
+  color: Black; 
+  padding: 14px 16px; 
+}
+#navbar a:hover {
+  background-color: red; 
 }
 h1 {
   font-size: 35px;
-  background-color: green;
+  text-align: center; 
 }
+#welcome-section {
+  min-height: 80vh; 
+  padding-top: 20vh; 
+  background-color: red
+}
+#projects {
+  min-height: 55vh; 
+  padding-top: 45vh;
+  background-color: yellow; 
+}
+#contact {
+  min-height: 55vh;
+  padding-top: 45vh; 
+  background-color: green; 
+  text-decoration: none; 
+  font-size: 44px; 
+  text-align: center; 
+}
+
+
+
 
 
 
